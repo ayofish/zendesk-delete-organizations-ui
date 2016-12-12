@@ -71,6 +71,7 @@
             var secondConfirm = confirm('Are you really sure you want to delete these records??');
             //delete
             if (secondConfirm === true) {
+                document.getElementById('organization-list').innerHTML = 'Deleting Records...';
                 var deletePromises = [];
                 var organizationInputs = document.getElementById('organization-list').getElementsByTagName('input');
                 for (var i = 0; i < organizationInputs.length; i++) {
