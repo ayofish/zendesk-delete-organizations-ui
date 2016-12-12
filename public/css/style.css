@@ -113,6 +113,7 @@ body {
 
 #organization-list table {
     margin: 0 auto;
+    min-width: 800px;
     text-align: left;
 }
 
