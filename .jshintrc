@@ -1,0 +1,27 @@
+{
+    "node": true,
+    "browser": true,
+    "esnext": true,
+    "curly": true,
+    "eqeqeq": false,
+    "immed": true,
+    "devel": true,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": false,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": true,
+    "ignoreDelimiters": [
+        { "start": "start-non-standard", "end": "end-non-standard" }
+    ],
+    "globals": {
+        "console": true,
+        "self": true,
+        "httpGet": true,
+        "httpPost": true,
+        "httpDelete": true
+    }
+}
